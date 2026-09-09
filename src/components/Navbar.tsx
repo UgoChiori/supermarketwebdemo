@@ -18,12 +18,12 @@ const Navbar: React.FC = () => {
     <nav className="relative z-50" data-aos="fade-down" data-aos-delay="500">
       <div className="container mx-auto px-4 md:px:8 lg:px-16 py-6">
         <div className="flex items-center justify-between">
-          <div className="text-black text-2xl font-bold uppercase tracking-tight">
+          <div className="text-white text-2xl font-bold uppercase tracking-tight">
             Dairy
             <span className="text-xs align-top ml-0.5">@</span>
           </div>
           <div className="hidden md:flex items-center justify-center">
-            <div className="flex gap-8 lg:gap-12 text-black">
+            <div className="flex gap-8 lg:gap-12 text-white">
               {navLinks.map((link) => (
                 <a
                   key={link.path}
@@ -41,14 +41,14 @@ const Navbar: React.FC = () => {
                     activeLink === link.label) && (
                     <span
                       className="absolute bottom-2 left-0 right-0 h-0.5
-                     bg-white rounded-full animate-fade-in"
+                   rounded-full animate-fade-in"
                     ></span>
                   )}
                 </a>
               ))}
             </div>
           </div>
-          <div className="flex items-center gap-4 text-gray-800">
+          <div className="flex items-center gap-4 text-white">
             <button className="hover:opacity-70 transition-opacity ">
               <Search size={20} />
             </button>
@@ -67,7 +67,7 @@ const Navbar: React.FC = () => {
           </div>
         </div>
        {isMenuOpen && (
-  <div className="md:hidden mt-4 border-t border-gray-200 pt-4">
+  <div className="md:hidden mt-4 border-t border-white/20 pt-4 text-white">
     <div className="flex flex-col gap-4">
       {navLinks.map((link) => (
         <a
@@ -77,7 +77,10 @@ const Navbar: React.FC = () => {
             setActiveLink(link.label);
             setIsMenuOpen(false);
           }}
-          className="text-black font-medium"
+          className={`py-2 relative transition-opacity hover:opacity-70 ${
+            activeLink === link.label ? "opacity-100" : "opacity-80"
+          }`}
+          // className="text-white font-medium"
         >
           {link.label}
         </a>
