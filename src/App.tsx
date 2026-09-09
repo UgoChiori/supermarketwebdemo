@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Hero from "./components/Hero";
+import Category from "./components/Category";
 
 
 
@@ -19,9 +20,9 @@ function App() {
   
 
   return (
-    <div className="">
+    <div className="overflow-hidden ">
       <Hero />
-      {/* <Navbar /> */}
+      <Category />
        
     </div>
   )
