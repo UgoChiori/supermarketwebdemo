@@ -19,41 +19,25 @@ const Hero: React.FC = () => {
       bgColor: "bg-green-800",
       image: "/images/organicmilkandcheese.png",
       alt: "Organic Milk and Cheese",
-      // title: "Organic Milk and Cheese",
-      // quantity: 3,
-      // size: "1L",
-      // price: "12,999.00",
-      // availability: "In Stock",
+    
     },
     {
       bgColor: "bg-gray-500",
       image: "/images/coffeebeans.png",
       alt: "Coffee Beans",
-      // title: "Fresh Coffee Beans",
-      // quantity: 2,
-      // size: "250G",
-      // price: "15,499.00",
-      // availability: "In Stock",
+    
     },
     {
       bgColor: "bg-amber-200",
       image: "/images/freshbutter.png",
       alt: "Fresh Butter",
-      // title: "Fresh Butter",
-      // quantity: 4,
-      // size: "250G",
-      // price: "39,999.00",
-      // availability: "In Stock",
+  
     },
     {
       bgColor: "bg-red-800",
       image: "/images/freshcream.png",
       alt: "Fresh Cream",
-      // title: "Fresh Cream",
-      // quantity: 6,
-      // size: "500G",
-      // price: "19,999.00",
-      // availability: "In Stock",
+   
     },
   ];
 
