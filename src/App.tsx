@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import { Routes, Route } from "react-router-dom";
 import Products from "./routes/Products";
 import Home from "./routes/Home";
+import { CartProvider } from "./context/CartContext";
 
 
 function App() {
@@ -17,12 +18,14 @@ function App() {
   }, []);
 
   return (
+    <CartProvider>
     <div className="overflow-hidden ">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
       </Routes>
     </div>
+    </CartProvider>
   );
 }
 

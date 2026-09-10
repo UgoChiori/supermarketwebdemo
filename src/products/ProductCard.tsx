@@ -1,4 +1,6 @@
 import React from "react";
+import { ShoppingBag } from "lucide-react";
+import { useCart } from "../context/CartContext";
 
 type Product = {
   id: string;
@@ -17,6 +19,10 @@ type ProductCardProps = {
 };
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+  const { addToCart} = useCart();
+
+  const isOutOfStock = product.availability === "out_of_stock";
+
   return (
     <div className="group">
       <div className="relative bg-gray-100 rounded-2xl overflow-hidden aspect-square">
@@ -30,29 +36,42 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       <div className="mt-4">
         <p className="text-sm ">{product.brand}</p>
 
-        <h3 className="font-medium mt-1">
-          {product.name}
-        </h3>
+        <h3 className="font-medium  mt-1">{product.name}</h3>
 
         <p className="text-sm  mt-1">
           {product.variant} · {product.size}
         </p>
 
-        <p className="font-semibold  mt-2">
-          ₦{product.price.toLocaleString()}
-        </p>
-
-        {product.availability === "low_stock" && (
-          <p className="text-xs text-orange-600 mt-1">Low stock</p>
-        )}
-
-        {product.availability === "out_of_stock" && (
-          <p className="text-xs text-red-600 mt-1">Out of stock</p>
+        <div className="flex items-center justify-between gap-3 mt-3">
+          <p className="font-semibold">
+            ₦{product.price.toLocaleString()}
+          </p>
+             {product.availability === "low_stock" && (
+          <p className="text-s text-orange-600 mt-2">Low stock</p>
         )}
 
         {product.availability === "in_stock" && (
-          <p className="text-xs text-green-600 mt-1">In stock</p>
+          <p className="text-s text-green-600 mt-2">In stock</p>
         )}
+        </div>
+<div className="flex items-center justify-between gap-3 mt-3">
+   <button
+            onClick={() => addToCart(product)}
+            disabled={isOutOfStock}
+            className="flex items-center gap-2 bg-red-800 text-white px-4 py-2 rounded-full text-sm font-medium transition-all hover:bg-red-900 disabled:bg-gray-300 disabled:cursor-not-allowed"
+          >
+            <ShoppingBag size={16} />
+            {isOutOfStock ? "Out of stock" : "Add to cart"}
+          </button>
+
+          </div>
+        {/* {product.availability === "low_stock" && (
+          <p className="text-xs text-orange-600 mt-2">Low stock</p>
+        )}
+
+        {product.availability === "in_stock" && (
+          <p className="text-xs text-green-600 mt-2">In stock</p>
+        )} */}
       </div>
     </div>
   );

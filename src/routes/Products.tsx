@@ -34,6 +34,17 @@ const Products: React.FC = () => {
 
   console.log(products);
 
+  const handleAddToCart = (product: Product) => {
+    // Implement the logic to add the product to the cart
+    console.log("Adding to cart:", product);
+  };
+  
+  const handleRemoveFromCart = (product: Product) => {
+    // Implement the logic to remove the product from the cart
+    console.log("Removing from cart:", product);
+  };
+
+
   return (
    <div className="min-h-screen transition-colors duration-1000 overflow-hidden bg-red-800">
       <Navbar />
@@ -48,7 +59,9 @@ const Products: React.FC = () => {
             <ProductCard
               key={product.id}
               product={product}
-              className="text-white"
+              // handleAddToCart={handleAddToCart}
+              // handleRemoveFromCart={handleRemoveFromCart}
+              // cartItems={cartItems}
             />
           ))}
         </div>

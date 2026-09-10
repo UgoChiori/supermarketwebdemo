@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Menu, Search, ShoppingBag, X } from "lucide-react";
+import { useCart } from "../context/CartContext";
 
 const Navbar: React.FC = () => {
+  const { cartCount } = useCart();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("Home");
   const [hoveredLink, setHoveredLink] = useState<string | null>(null);
@@ -55,7 +57,7 @@ const Navbar: React.FC = () => {
             <button className="hover:opacity-70 transition-opacity relative">
               <ShoppingBag size={20} />
               <span className="absolute -top-2 -right-2 bg-white text-gray-900 text-xs rounded-full w-4 h-4 flex items-center justify-center font-bold">
-                0
+                {cartCount}
               </span>
             </button>
             <button
