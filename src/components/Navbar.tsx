@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { Menu, Search, ShoppingBag, X } from "lucide-react";
 import { useCart } from "../context/CartContext";
+import CartDrawer from "../context/CartDrawer";
 
 const Navbar: React.FC = () => {
   const { cartCount } = useCart();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("Home");
   const [hoveredLink, setHoveredLink] = useState<string | null>(null);
+  const [isCartDrawerOpen, setIsCartDrawerOpen] = useState(false);
 
   const navLinks = [
     { label: "Home", path: "/" },
@@ -54,7 +56,10 @@ const Navbar: React.FC = () => {
             <button className="hover:opacity-70 transition-opacity ">
               <Search size={20} />
             </button>
-            <button className="hover:opacity-70 transition-opacity relative">
+            <button
+              className="hover:opacity-70 transition-opacity relative"
+              onClick={() => setIsCartDrawerOpen(true)}
+            >
               <ShoppingBag size={20} />
               <span className="absolute -top-2 -right-2 bg-white text-gray-900 text-xs rounded-full w-4 h-4 flex items-center justify-center font-bold">
                 {cartCount}
@@ -68,29 +73,32 @@ const Navbar: React.FC = () => {
             </button>
           </div>
         </div>
-       {isMenuOpen && (
-  <div className="md:hidden mt-4 border-t border-white/20 pt-4 text-white">
-    <div className="flex flex-col gap-4">
-      {navLinks.map((link) => (
-        <a
-          key={link.path}
-          href={link.path}
-          onClick={() => {
-            setActiveLink(link.label);
-            setIsMenuOpen(false);
-          }}
-          className={`py-2 relative transition-opacity hover:opacity-70 ${
-            activeLink === link.label ? "opacity-100" : "opacity-80"
-          }`}
-          // className="text-white font-medium"
-        >
-          {link.label}
-        </a>
-      ))}
-    </div>
-  </div>
-)}
+        {isMenuOpen && (
+          <div className="md:hidden mt-4 border-t border-white/20 pt-4 text-white">
+            <div className="flex flex-col gap-4">
+              {navLinks.map((link) => (
+                <a
+                  key={link.path}
+                  href={link.path}
+                  onClick={() => {
+                    setActiveLink(link.label);
+                    setIsMenuOpen(false);
+                  }}
+                  className={`py-2 relative transition-opacity hover:opacity-70 ${
+                    activeLink === link.label ? "opacity-100" : "opacity-80"
+                  }`}
+                  // className="text-white font-medium"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
+      {isCartDrawerOpen && (
+        <CartDrawer onClose={() => setIsCartDrawerOpen(false)} />
+      )}
     </nav>
   );
 };

@@ -9,7 +9,7 @@
           "name": "Horizon Organic Whole Milk",
           "brand": "Horizon Organic",
           "variant": "Whole Milk",
-          "size": "1L",
+          "size": "1.89L",
           "price": 12500,
           "currency": "NGN",
           "availability": "in_stock",
@@ -20,7 +20,7 @@
           "name": "Fairlife Whole Milk",
           "brand": "Fairlife",
           "variant": "Whole Milk",
-          "size": "1L",
+          "size": "1.5L",
           "price": 14500,
           "currency": "NGN",
           "availability": "low_stock",
@@ -78,7 +78,7 @@
           "price": 12500,
           "currency": "NGN",
           "availability": "in_stock",
-          "image": "/images/kolios_greek_yogurt_500g.png"
+          "image": "/images/koliosunsweetenedgreekyogurt.png"
         },
         {
           "id": "kolios-greek-yogurt-1kg-unsweetened",
@@ -89,7 +89,7 @@
           "price": 22000,
           "currency": "NGN",
           "availability": "low_stock",
-          "image": "/images/kolios_greek_yogurt_1kg.png"
+          "image": "/images/koliosbig.png"
         },
         {
           "id": "kolios-greek-yogurt-500g-strawberry",
@@ -211,7 +211,7 @@
           "name": "Kerrygold Salted Butter",
           "brand": "Kerrygold",
           "variant": "Salted",
-          "size": "250g",
+          "size": "227g",
           "price": 9500,
           "currency": "NGN",
           "availability": "in_stock",
@@ -742,6 +742,17 @@
           "image": "/images/heinz_mayonnaise_400ml.png"
         },
         {
+          "id": "Mayonnaise-Calvé",
+          "name": "Mayonnaise Calvé",
+          "brand": "Calvé",
+          "variant": "Original",
+          "size": "825ml",
+          "price": 36500,
+          "currency": "NGN",
+          "availability": "in_stock",
+          "image": "/images/calve_mayonnaise_825ml.png"
+        },
+        {
           "id": "hellmanns-mayonnaise-400ml",
           "name": "Real Mayonnaise",
           "brand": "Hellmann's",
@@ -894,6 +905,17 @@
           "currency": "NGN",
           "availability": "in_stock",
           "image": "/images/coca_cola_330ml.png"
+        },
+        {
+          "id": "coca-cola-33ml",
+          "name": "Coca-Cola",
+          "brand": "Coca-Cola",
+          "variant": "Original",
+          "size": "33ml",
+          "price": 570,
+          "currency": "NGN",
+          "availability": "in_stock",
+          "image": "/images/coca_zero_33ml.png"
         },
         {
           "id": "coca-cola-1l",
@@ -1145,10 +1167,21 @@
           "image": "/images/lavazza_qualita_rossa_250g.png"
         },
         {
+          "id": "Mugg & Bean Coffee Beans 250g",
+          "name": "Mugg & Bean Coffee Beans",
+          "brand": "Mugg & Bean",
+          "variant": "Medium Roast",
+          "size": "250g",
+          "price": 22000,
+          "currency": "NGN",
+          "availability": "in_stock",
+          "image": "/images/mugg_bean_coffee_beans_250g.png"
+        },
+        {
           "id": "lavazza-super-crema-1kg",
           "name": "Super Crema Coffee Beans",
           "brand": "Lavazza",
-          "variant": "Medium Roast",
+          "variant": "Medium to Dark Roast",
           "size": "1kg",
           "price": 62000,
           "currency": "NGN",

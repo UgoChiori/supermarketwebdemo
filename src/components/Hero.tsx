@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
     },
     {
       bgColor: "bg-amber-200",
-      image: "/images/freshbutter.png",
+      image: "/images/kerrygold_salted_butter_250g.png",
       alt: "Fresh Butter",
   
     },
