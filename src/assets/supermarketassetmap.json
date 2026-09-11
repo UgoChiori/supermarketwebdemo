@@ -1276,6 +1276,17 @@
       "currency": "NGN",
       "availability": "in_stock",
       "image": "/images/oreo_original_300g.png"
+    },
+    {
+      "id": "famous-amos",
+      "name": "Famous Amos",
+      "brand": "Famous",
+      "variant": "Original",
+      "size": "300g",
+      "price": 3000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/famous_amos_300g.png"
     }
   ]
 },
