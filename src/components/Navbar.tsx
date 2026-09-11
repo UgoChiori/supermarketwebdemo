@@ -1,10 +1,18 @@
 import React, { useState } from "react";
 import { Menu, Search, ShoppingBag, X } from "lucide-react";
-import { useCart } from "../context/CartContext";
+// import { useCart } from "../context/CartContext";
+import { useSelector } from "react-redux";
+import type { RootState } from "../redux/store";  
 import CartDrawer from "../context/CartDrawer";
 
 const Navbar: React.FC = () => {
-  const { cartCount } = useCart();
+  // const { cartCount } = useCart();
+  const cartItems = useSelector((state: RootState) => state.cart.item);
+
+  const cartCount = cartItems.reduce(
+    (total, item) => total + item.quantity,
+    0
+  )
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("Home");
   const [hoveredLink, setHoveredLink] = useState<string | null>(null);

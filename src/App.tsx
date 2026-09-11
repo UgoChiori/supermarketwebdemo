@@ -5,6 +5,8 @@ import { Routes, Route } from "react-router-dom";
 import Products from "./routes/Products";
 import Home from "./routes/Home";
 import { CartProvider } from "./context/CartContext";
+import { Provider } from "react-redux";
+import { store } from "./redux/store";
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
   }, []);
 
   return (
+    <Provider store={store}>
     <CartProvider>
     <div className="overflow-hidden ">
       <Routes>
@@ -26,6 +29,7 @@ function App() {
       </Routes>
     </div>
     </CartProvider>
+    </Provider>
   );
 }
 
