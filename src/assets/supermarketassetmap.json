@@ -1,414 +1,366 @@
 {
   "dairy_and_eggs": {
-    "category_label": "Dairy & Eggs",
-    "whole_milk": {
-      "category_label": "Whole Milk",
-      "products": [
-        {
-          "id": "horizon-organic-whole-milk-1l",
-          "name": "Horizon Organic Whole Milk",
-          "brand": "Horizon Organic",
-          "variant": "Whole Milk",
-          "size": "1.89L",
-          "price": 12500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/horizon_organic_whole_milk_1l.png"
-        },
-        {
-          "id": "fairlife-whole-milk-1l",
-          "name": "Fairlife Whole Milk",
-          "brand": "Fairlife",
-          "variant": "Whole Milk",
-          "size": "1.5L",
-          "price": 14500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/fairlife_whole_milk_1l.png"
-        },
-        {
-          "id": "borden-whole-milk-1l",
-          "name": "Borden Whole Milk",
-          "brand": "Borden",
-          "variant": "Whole Milk",
-          "size": "1L",
-          "price": 11000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/borden_whole_milk_1l.png"
-        }
-      ]
-    },
-    "skim_milk": {
-      "category_label": "Skim Milk",
-      "products": [
-        {
-          "id": "horizon-skim-milk-1l",
-          "name": "Horizon Organic Skim Milk",
-          "brand": "Horizon Organic",
-          "variant": "Skim Milk",
-          "size": "1L",
-          "price": 13000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/horizon_organic_skim_milk_1l.png"
-        },
-        {
-          "id": "fairlife-skim-milk-1l",
-          "name": "Fairlife Fat Free Milk",
-          "brand": "Fairlife",
-          "variant": "Fat Free",
-          "size": "1L",
-          "price": 14500,
-          "currency": "NGN",
-          "availability": "out_of_stock",
-          "image": "/images/fairlife_fat_free_milk_1l.png"
-        }
-      ]
-    },
-    "greek_yogurt": {
-      "category_label": "Greek Yogurt",
-      "products": [
-        {
-          "id": "kolios-greek-yogurt-500g-unsweetened",
-          "name": "Kolios Greek Yogurt",
-          "brand": "Kolios",
-          "variant": "Plain Unsweetened",
-          "size": "500g",
-          "price": 12500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/koliosunsweetenedgreekyogurt.png"
-        },
-        {
-          "id": "kolios-greek-yogurt-1kg-unsweetened",
-          "name": "Kolios Greek Yogurt",
-          "brand": "Kolios",
-          "variant": "Plain Unsweetened",
-          "size": "1kg",
-          "price": 22000,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/koliosbig.png"
-        },
-        {
-          "id": "kolios-greek-yogurt-500g-strawberry",
-          "name": "Kolios Greek Yogurt",
-          "brand": "Kolios",
-          "variant": "Strawberry",
-          "size": "500g",
-          "price": 13500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/kolios_greek_yogurt_strawberry_500g.png"
-        },
-        {
-          "id": "chobani-greek-yogurt-907g-plain",
-          "name": "Chobani Greek Yogurt",
-          "brand": "Chobani",
-          "variant": "Plain Unsweetened",
-          "size": "907g",
-          "price": 28000,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/chobani_plain_907g.png"
-        },
-        {
-          "id": "chobani-greek-yogurt-907g-vanilla",
-          "name": "Chobani Greek Yogurt",
-          "brand": "Chobani",
-          "variant": "Vanilla",
-          "size": "907g",
-          "price": 29500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/chobani_vanilla_907g.png"
-        },
-        {
-          "id": "fage-total-greek-yogurt-500g",
-          "name": "FAGE Total Greek Yogurt",
-          "brand": "FAGE",
-          "variant": "Plain Unsweetened",
-          "size": "500g",
-          "price": 18000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/fage_total_500g.png"
-        },
-        {
-          "id": "fage-total-greek-yogurt-1kg",
-          "name": "FAGE Total Greek Yogurt",
-          "brand": "FAGE",
-          "variant": "Plain Unsweetened",
-          "size": "1kg",
-          "price": 31500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/fage_total_1kg.png"
-        },
-        {
-          "id": "fage-greek-yogurt-500g-strawberry",
-          "name": "FAGE Greek Yogurt",
-          "brand": "FAGE",
-          "variant": "Strawberry",
-          "size": "500g",
-          "price": 19500,
-          "currency": "NGN",
-          "availability": "out_of_stock",
-          "image": "/images/fage_strawberry_500g.png"
-        },
-        {
-          "id": "liberte-greek-yogurt-500g",
-          "name": "Liberté Greek Yogurt",
-          "brand": "Liberté",
-          "variant": "Plain",
-          "size": "500g",
-          "price": 16500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/liberte_greek_yogurt_500g.png"
-        },
-        {
-          "id": "liberte-greek-yogurt-750g-vanilla",
-          "name": "Liberté Greek Yogurt",
-          "brand": "Liberté",
-          "variant": "Vanilla",
-          "size": "750g",
-          "price": 22000,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/liberte_vanilla_750g.png"
-        }
-      ]
-    },
-    "salted_butter": {
-      "category_label": "Salted Butter",
-      "products": [
-        {
-          "id": "lurpak-salted-butter-250g",
-          "name": "Lurpak Salted Butter",
-          "brand": "Lurpak",
-          "variant": "Salted",
-          "size": "250g",
-          "price": 10500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/lurpak_salted_butter_250g.png"
-        },
-        {
-          "id": "lurpak-salted-butter-500g",
-          "name": "Lurpak Salted Butter",
-          "brand": "Lurpak",
-          "variant": "Salted",
-          "size": "500g",
-          "price": 19500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/lurpak_salted_butter_500g.png"
-        },
-        {
-          "id": "kerrygold-salted-butter-250g",
-          "name": "Kerrygold Salted Butter",
-          "brand": "Kerrygold",
-          "variant": "Salted",
-          "size": "227g",
-          "price": 9500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/kerrygold_salted_butter_250g.png"
-        }
-      ]
-    },
-    "cheddar_cheese": {
-      "category_label": "Cheddar Cheese",
-      "products": [
-        {
-          "id": "cathedral-city-cheddar-350g",
-          "name": "Cathedral City Mature Cheddar",
-          "brand": "Cathedral City",
-          "variant": "Mature",
-          "size": "350g",
-          "price": 16000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/cathedral_city_cheddar_350g.png"
-        },
-        {
-          "id": "cathedral-city-cheddar-550g",
-          "name": "Cathedral City Mature Cheddar",
-          "brand": "Cathedral City",
-          "variant": "Mature",
-          "size": "550g",
-          "price": 23500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/cathedral_city_cheddar_550g.png"
-        },
-        {
-          "id": "president-cheddar-200g",
-          "name": "Président Cheddar Cheese",
-          "brand": "Président",
-          "variant": "Mild Cheddar",
-          "size": "200g",
-          "price": 9500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/president_cheddar_200g.png"
-        }
-      ]
-    },
-    "shredded_mozzarella": {
-      "category_label": "Shredded Mozzarella",
-      "products": [
-        {
-          "id": "galbani-mozzarella-200g",
-          "name": "Galbani Mozzarella",
-          "brand": "Galbani",
-          "variant": "Shredded",
-          "size": "200g",
-          "price": 9500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/galbani_mozzarella_200g.png"
-        },
-        {
-          "id": "galbani-mozzarella-400g",
-          "name": "Galbani Mozzarella",
-          "brand": "Galbani",
-          "variant": "Shredded",
-          "size": "400g",
-          "price": 17500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/galbani_mozzarella_400g.png"
-        }
-      ]
-    }
+    "category_label": "Dairy",
+    "products": [
+      {
+        "id": "horizon-organic-whole-milk-1l",
+        "name": "Horizon Organic Whole Milk",
+        "brand": "Horizon Organic",
+        "variant": "Whole Milk",
+        "size": "1.89L",
+        "price": 12500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/horizon_organic_whole_milk_1l.png"
+      },
+      {
+        "id": "fairlife-whole-milk-1l",
+        "name": "Fairlife Whole Milk",
+        "brand": "Fairlife",
+        "variant": "Whole Milk",
+        "size": "1.5L",
+        "price": 14500,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/fairlife_whole_milk_1l.png"
+      },
+      {
+        "id": "borden-whole-milk-1l",
+        "name": "Borden Whole Milk",
+        "brand": "Borden",
+        "variant": "Whole Milk",
+        "size": "1L",
+        "price": 11000,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/borden_whole_milk_1l.png"
+      },
+      {
+        "id": "horizon-skim-milk-1l",
+        "name": "Horizon Organic Skim Milk",
+        "brand": "Horizon Organic",
+        "variant": "Skim Milk",
+        "size": "1L",
+        "price": 13000,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/horizon_organic_skim_milk_1l.png"
+      },
+      {
+        "id": "fairlife-skim-milk-1l",
+        "name": "Fairlife Fat Free Milk",
+        "brand": "Fairlife",
+        "variant": "Fat Free",
+        "size": "1L",
+        "price": 14500,
+        "currency": "NGN",
+        "availability": "out_of_stock",
+        "image": "/images/fairlife_fat_free_milk_1l.png"
+      },
+      {
+        "id": "kolios-greek-yogurt-500g-unsweetened",
+        "name": "Kolios Greek Yogurt",
+        "brand": "Kolios",
+        "variant": "Plain Unsweetened",
+        "size": "500g",
+        "price": 12500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/koliosunsweetenedgreekyogurt.png"
+      },
+      {
+        "id": "kolios-greek-yogurt-1kg-unsweetened",
+        "name": "Kolios Greek Yogurt",
+        "brand": "Kolios",
+        "variant": "Plain Unsweetened",
+        "size": "1kg",
+        "price": 22000,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/koliosbig.png"
+      },
+      {
+        "id": "kolios-greek-yogurt-500g-strawberry",
+        "name": "Kolios Greek Yogurt",
+        "brand": "Kolios",
+        "variant": "Strawberry",
+        "size": "500g",
+        "price": 13500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/kolios_greek_yogurt_strawberry_500g.png"
+      },
+      {
+        "id": "chobani-greek-yogurt-907g-plain",
+        "name": "Chobani Greek Yogurt",
+        "brand": "Chobani",
+        "variant": "Plain Unsweetened",
+        "size": "907g",
+        "price": 28000,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/chobani_plain_907g.png"
+      },
+      {
+        "id": "chobani-greek-yogurt-907g-vanilla",
+        "name": "Chobani Greek Yogurt",
+        "brand": "Chobani",
+        "variant": "Vanilla",
+        "size": "907g",
+        "price": 29500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/chobani_vanilla_907g.png"
+      },
+      {
+        "id": "fage-total-greek-yogurt-500g",
+        "name": "FAGE Total Greek Yogurt",
+        "brand": "FAGE",
+        "variant": "Plain Unsweetened",
+        "size": "500g",
+        "price": 18000,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/fage_total_500g.png"
+      },
+      {
+        "id": "fage-total-greek-yogurt-1kg",
+        "name": "FAGE Total Greek Yogurt",
+        "brand": "FAGE",
+        "variant": "Plain Unsweetened",
+        "size": "1kg",
+        "price": 31500,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/fage_total_1kg.png"
+      },
+      {
+        "id": "fage-greek-yogurt-500g-strawberry",
+        "name": "FAGE Greek Yogurt",
+        "brand": "FAGE",
+        "variant": "Strawberry",
+        "size": "500g",
+        "price": 19500,
+        "currency": "NGN",
+        "availability": "out_of_stock",
+        "image": "/images/fage_strawberry_500g.png"
+      },
+      {
+        "id": "liberte-greek-yogurt-500g",
+        "name": "Liberté Greek Yogurt",
+        "brand": "Liberté",
+        "variant": "Plain",
+        "size": "500g",
+        "price": 16500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/liberte_greek_yogurt_500g.png"
+      },
+      {
+        "id": "liberte-greek-yogurt-750g-vanilla",
+        "name": "Liberté Greek Yogurt",
+        "brand": "Liberté",
+        "variant": "Vanilla",
+        "size": "750g",
+        "price": 22000,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/liberte_vanilla_750g.png"
+      },
+      {
+        "id": "lurpak-salted-butter-250g",
+        "name": "Lurpak Salted Butter",
+        "brand": "Lurpak",
+        "variant": "Salted",
+        "size": "250g",
+        "price": 10500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/lurpak_salted_butter_250g.png"
+      },
+      {
+        "id": "lurpak-salted-butter-500g",
+        "name": "Lurpak Salted Butter",
+        "brand": "Lurpak",
+        "variant": "Salted",
+        "size": "500g",
+        "price": 19500,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/lurpak_salted_butter_500g.png"
+      },
+      {
+        "id": "kerrygold-salted-butter-250g",
+        "name": "Kerrygold Salted Butter",
+        "brand": "Kerrygold",
+        "variant": "Salted",
+        "size": "227g",
+        "price": 9500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/kerrygold_salted_butter_250g.png"
+      },
+      {
+        "id": "cathedral-city-cheddar-350g",
+        "name": "Cathedral City Mature Cheddar",
+        "brand": "Cathedral City",
+        "variant": "Mature",
+        "size": "350g",
+        "price": 16000,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/cathedral_city_cheddar_350g.png"
+      },
+      {
+        "id": "cathedral-city-cheddar-550g",
+        "name": "Cathedral City Mature Cheddar",
+        "brand": "Cathedral City",
+        "variant": "Mature",
+        "size": "550g",
+        "price": 23500,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/cathedral_city_cheddar_550g.png"
+      },
+      {
+        "id": "president-cheddar-200g",
+        "name": "Président Cheddar Cheese",
+        "brand": "Président",
+        "variant": "Mild Cheddar",
+        "size": "200g",
+        "price": 9500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/president_cheddar_200g.png"
+      },
+      {
+        "id": "galbani-mozzarella-200g",
+        "name": "Galbani Mozzarella",
+        "brand": "Galbani",
+        "variant": "Shredded",
+        "size": "200g",
+        "price": 9500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/galbani_mozzarella_200g.png"
+      },
+      {
+        "id": "galbani-mozzarella-400g",
+        "name": "Galbani Mozzarella",
+        "brand": "Galbani",
+        "variant": "Shredded",
+        "size": "400g",
+        "price": 17500,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/galbani_mozzarella_400g.png"
+      }
+    ]
   },
-
   "produce": {
     "category_label": "Produce",
-    "bananas": {
-      "category_label": "Bananas",
-      "products": [
-        {
-          "id": "fresh-bananas-1kg",
-          "name": "Fresh Bananas",
-          "brand": "Fresh Produce",
-          "variant": "Regular",
-          "size": "1kg",
-          "price": 3500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/fresh_bananas_1kg.png"
-        },
-        {
-          "id": "fresh-bananas-2kg",
-          "name": "Fresh Bananas",
-          "brand": "Fresh Produce",
-          "variant": "Regular",
-          "size": "2kg",
-          "price": 6500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/fresh_bananas_2kg.png"
-        }
-      ]
-    },
-    "apples": {
-      "category_label": "Apples",
-      "products": [
-        {
-          "id": "gala-apples-1kg",
-          "name": "Gala Apples",
-          "brand": "Fresh Produce",
-          "variant": "Gala",
-          "size": "1kg",
-          "price": 7500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/gala_apples_1kg.png"
-        },
-        {
-          "id": "fuji-apples-1kg",
-          "name": "Fuji Apples",
-          "brand": "Fresh Produce",
-          "variant": "Fuji",
-          "size": "1kg",
-          "price": 8000,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/fuji_apples_1kg.png"
-        },
-        {
-          "id": "washington-apples-1kg",
-          "name": "Washington Apples",
-          "brand": "Fresh Produce",
-          "variant": "Washington",
-          "size": "1kg",
-          "price": 8500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/washington_apples_1kg.png"
-        }
-      ]
-    },
-    "packaged_salads": {
-      "category_label": "Packaged Salads",
-      "products": [
-        {
-          "id": "fresh-express-caesar-salad-300g",
-          "name": "Caesar Salad Kit",
-          "brand": "Fresh Express",
-          "variant": "Caesar",
-          "size": "300g",
-          "price": 9500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/fresh_express_caesar_300g.png"
-        },
-        {
-          "id": "dole-salad-kit-300g",
-          "name": "Chopped Salad Kit",
-          "brand": "Dole",
-          "variant": "Chopped",
-          "size": "300g",
-          "price": 9000,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/dole_salad_300g.png"
-        }
-      ]
-    },
-    "baby_carrots": {
-      "category_label": "Baby Carrots",
-      "products": [
-        {
-          "id": "baby-carrots-250g",
-          "name": "Baby Carrots",
-          "brand": "Fresh Produce",
-          "variant": "Peeled",
-          "size": "250g",
-          "price": 2500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/baby_carrots_250g.png"
-        },
-        {
-          "id": "baby-carrots-500g",
-          "name": "Baby Carrots",
-          "brand": "Fresh Produce",
-          "variant": "Peeled",
-          "size": "500g",
-          "price": 4500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/baby_carrots_500g.png"
-        }
-      ]
-    }
+    "products": [
+      {
+        "id": "fresh-bananas-1kg",
+        "name": "Fresh Bananas",
+        "brand": "Fresh Produce",
+        "variant": "Regular",
+        "size": "1kg",
+        "price": 3500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/fresh_bananas_1kg.png"
+      },
+      {
+        "id": "fresh-bananas-2kg",
+        "name": "Fresh Bananas",
+        "brand": "Fresh Produce",
+        "variant": "Regular",
+        "size": "2kg",
+        "price": 6500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/fresh_bananas_2kg.png"
+      },
+      {
+        "id": "gala-apples-1kg",
+        "name": "Gala Apples",
+        "brand": "Fresh Produce",
+        "variant": "Gala",
+        "size": "1kg",
+        "price": 7500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/gala_apples_1kg.png"
+      },
+      {
+        "id": "fuji-apples-1kg",
+        "name": "Fuji Apples",
+        "brand": "Fresh Produce",
+        "variant": "Fuji",
+        "size": "1kg",
+        "price": 8000,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/fuji_apples_1kg.png"
+      },
+      {
+        "id": "washington-apples-1kg",
+        "name": "Washington Apples",
+        "brand": "Fresh Produce",
+        "variant": "Washington",
+        "size": "1kg",
+        "price": 8500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/washington_apples_1kg.png"
+      },
+      {
+        "id": "fresh-express-caesar-salad-300g",
+        "name": "Caesar Salad Kit",
+        "brand": "Fresh Express",
+        "variant": "Caesar",
+        "size": "300g",
+        "price": 9500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/fresh_express_caesar_300g.png"
+      },
+      {
+        "id": "dole-salad-kit-300g",
+        "name": "Chopped Salad Kit",
+        "brand": "Dole",
+        "variant": "Chopped",
+        "size": "300g",
+        "price": 9000,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/dole_salad_300g.png"
+      },
+      {
+        "id": "baby-carrots-250g",
+        "name": "Baby Carrots",
+        "brand": "Fresh Produce",
+        "variant": "Peeled",
+        "size": "250g",
+        "price": 2500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/baby_carrots_250g.png"
+      },
+      {
+        "id": "baby-carrots-500g",
+        "name": "Baby Carrots",
+        "brand": "Fresh Produce",
+        "variant": "Peeled",
+        "size": "500g",
+        "price": 4500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/baby_carrots_500g.png"
+      }
+    ]
   },
-
   "bakery": {
     "category_label": "Bakery",
     "sliced_bread": {
@@ -493,7 +445,6 @@
       ]
     }
   },
-
   "meat_and_seafood": {
     "category_label": "Meat & Seafood",
     "chicken_breasts": {
@@ -605,7 +556,6 @@
       ]
     }
   },
-
   "pantry_staples": {
     "category_label": "Pantry Staples",
     "pasta": {
@@ -766,772 +716,1226 @@
       ]
     }
   },
-
   "breakfast_and_snacks": {
     "category_label": "Breakfast & Snacks",
-    "cereal": {
-      "category_label": "Cereal",
-      "products": [
-        {
-          "id": "kelloggs-corn-flakes-500g",
-          "name": "Corn Flakes",
-          "brand": "Kellogg's",
-          "variant": "Original",
-          "size": "500g",
-          "price": 8500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/kelloggs_corn_flakes_500g.png"
-        },
-        {
-          "id": "nesquik-cereal-375g",
-          "name": "Nesquik Cereal",
-          "brand": "Nestlé",
-          "variant": "Chocolate",
-          "size": "375g",
-          "price": 7500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/nesquik_cereal_375g.png"
-        },
-        {
-          "id": "weetabix-24-pack",
-          "name": "Weetabix",
-          "brand": "Weetabix",
-          "variant": "Original",
-          "size": "24 Pack",
-          "price": 11500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/weetabix_24pk.png"
-        }
-      ]
+    "products": [
+      {
+        "id": "kelloggs-corn-flakes-500g",
+        "name": "Corn Flakes",
+        "brand": "Kellogg's",
+        "variant": "Original",
+        "size": "500g",
+        "price": 8500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/kelloggs_corn_flakes_500g.png"
+      },
+      {
+        "id": "nesquik-cereal-375g",
+        "name": "Nesquik Cereal",
+        "brand": "Nestlé",
+        "variant": "Chocolate",
+        "size": "375g",
+        "price": 7500,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/nesquik_cereal_375g.png"
+      },
+      {
+        "id": "weetabix-24-pack",
+        "name": "Weetabix",
+        "brand": "Weetabix",
+        "variant": "Original",
+        "size": "24 Pack",
+        "price": 11500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/weetabix_24pk.png"
+      }
+    ]
+  },
+"potato_chips": {
+  "category_label": "Potato Chips",
+  "products": [
+    {
+      "id": "pringles-original-165g",
+      "name": "Pringles Original",
+      "brand": "Pringles",
+      "variant": "Original",
+      "size": "165g",
+      "price": 6500,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/pringles_original_165g.png"
     },
-    "potato_chips": {
-      "category_label": "Potato Chips",
-      "products": [
-        {
-          "id": "pringles-original-165g",
-          "name": "Pringles Original",
-          "brand": "Pringles",
-          "variant": "Original",
-          "size": "165g",
-          "price": 6500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/pringles_original_165g.png"
-        },
-        {
-          "id": "pringles-sour-cream-165g",
-          "name": "Pringles Sour Cream & Onion",
-          "brand": "Pringles",
-          "variant": "Sour Cream & Onion",
-          "size": "165g",
-          "price": 6500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/pringles_sour_cream_165g.png"
-        }
-      ]
-    },
-    "cookies": {
-      "category_label": "Cookies",
-      "products": [
-        {
-          "id": "oreo-original-154g",
-          "name": "Oreo Original",
-          "brand": "Oreo",
-          "variant": "Original",
-          "size": "154g",
-          "price": 2500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/oreo_original_154g.png"
-        },
-        {
-          "id": "oreo-original-300g",
-          "name": "Oreo Original",
-          "brand": "Oreo",
-          "variant": "Original",
-          "size": "300g",
-          "price": 4500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/oreo_original_300g.png"
-        }
-      ]
-    },
-    "crackers": {
-      "category_label": "Crackers",
-      "products": [
-        {
-          "id": "ritz-crackers-200g",
-          "name": "Ritz Crackers",
-          "brand": "Ritz",
-          "variant": "Original",
-          "size": "200g",
-          "price": 5000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/ritz_crackers_200g.png"
-        },
-        {
-          "id": "carrs-table-water-125g",
-          "name": "Table Water Crackers",
-          "brand": "Carr's",
-          "variant": "Original",
-          "size": "125g",
-          "price": 6000,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/carrs_crackers_125g.png"
-        }
-      ]
+    {
+      "id": "pringles-sour-cream-165g",
+      "name": "Pringles Sour Cream & Onion",
+      "brand": "Pringles",
+      "variant": "Sour Cream & Onion",
+      "size": "165g",
+      "price": 6500,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/pringles_sour_cream_165g.png"
     }
+  ]
+},
+"vegetables": {
+  "category_label": "Vegetables",
+  "products": [
+    {
+      "id": "fresh-broccoli-500g",
+      "name": "Fresh Broccoli",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "500g",
+      "price": 4500,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/fresh_broccoli_500g.png"
+    },
+    {
+      "id": "fresh-spinach-250g",
+      "name": "Fresh Spinach",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "250g",
+      "price": 3500,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/fresh_spinach_250g.png"
+    },
+    {
+      "id": "fresh-carrots-500g",
+      "name": "Fresh Carrots",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "500g",
+      "price": 4000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/fresh_carrots_500g.png"
+    },
+    {
+      "id": "fresh-bell-peppers-3pk",
+      "name": "Fresh Bell Peppers",
+      "brand": "Fresh Produce",
+      "variant": "Mixed Colors",
+      "size": "3 Pack",
+      "price": 6000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/fresh_bell_peppers_3pk.png"
+    },
+    {
+      "id": "fresh-cucumbers-2pk",
+      "name": "Fresh Cucumbers",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "2 Pack",
+      "price": 3000,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/fresh_cucumbers_2pk.png"
+    },
+    {
+      "id": "fresh-tomatoes-500g",
+      "name": "Fresh Tomatoes",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "500g",
+      "price": 4000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/fresh_tomatoes_500g.png"
+    },
+    {
+      "id": "fresh-lettuce-1pk",
+      "name": "Fresh Lettuce",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "1 Pack",
+      "price": 3500,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/fresh_lettuce_1pk.png"
+    },
+    {
+      "id": "fresh-celery-1pk",
+      "name": "Fresh Celery",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "1 Pack",
+      "price": 3000,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/fresh_celery_1pk.png"
+    },
+    {
+      "id": "fresh-zucchini-500g",
+      "name": "Fresh Zucchini",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "500g",
+      "price": 4000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/fresh_zucchini_500g.png"
+    },
+    {
+      "id": "fresh-eggplant-1pk",
+      "name": "Fresh Eggplant",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "1 Pack",
+      "price": 4500,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/fresh_eggplant_1pk.png"
+    },
+    {
+      "id": "fresh-green-beans-500g",
+      "name": "Fresh Green Beans",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "500g",
+      "price": 4000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/fresh_green_beans_500g.png"
+    },
+    {
+      "id": "fresh-onions-500g",
+      "name": "Fresh Onions",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "500g",
+      "price": 4000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/fresh_onions_500g.png"
+    },
+    {
+      "id": "fresh-spring-onions-250g",
+      "name": "Fresh Spring Onions",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "250g",
+      "price": 3500,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/fresh_spring_onions_250g.png"
+    },
+    {
+      "id": "horse-radish-100g",
+      "name": "Fresh Horseradish",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "100g",
+      "price": 3000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/fresh_horseradish_100g.png"
+    },
+    {
+      "id": "fresh-parsley-50g",
+      "name": "Fresh Parsley",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "50g",
+      "price": 2500,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/fresh_parsley_50g.png"
+    },
+    {
+      "id": "fresh-cilantro-50g",
+      "name": "Fresh Cilantro",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "50g",
+      "price": 2500,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/fresh_cilantro_50g.png"
+    },
+    {
+      "id": "fresh-dill-50g",
+      "name": "Fresh Dill",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "50g",
+      "price": 2500,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/fresh_dill_50g.png"
+    },
+    {
+      "id": "fresh-thyme-50g",
+      "name": "Fresh Thyme",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "50g",
+      "price": 2500,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/fresh_thyme_50g.png"
+    },
+    {
+      "id": "fresh-rosemary-50g",
+      "name": "Fresh Rosemary",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "50g",
+      "price": 2500,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/fresh_rosemary_50g.png"
+    },
+    {
+      "id": "fresh-basil-50g",
+      "name": "Fresh Basil",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "50g",
+      "price": 2500,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/fresh_basil_50g.png"
+    },
+    {
+      "id": "fresh-mint-50g",
+      "name": "Fresh Mint",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "50g",
+      "price": 2500,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/fresh_mint_50g.png"
+    },
+    {
+      "id": "fresh-chives-50g",
+      "name": "Fresh Chives",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "50g",
+      "price": 2500,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/fresh_chives_50g.png"
+    },
+    {
+      "id": "mushrooms-250g",
+      "name": "Mushrooms",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "250g",
+      "price": 4000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/mushrooms_250g.png"
+    }
+  ]
+},
+"fruits": {
+  "category_label": "Fruits",
+  "products": [
+    {
+      "id": "fresh-apples-1kg",
+      "name": "Fresh Apples",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "1kg",
+      "price": 7500,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/fresh_apples_1kg.png"
+    },
+    {
+      "id": "fresh-bananas-1kg",
+      "name": "Fresh Bananas",
+      "brand": "Fresh Produce",
+      "variant": "Regular",
+      "size": "1kg",
+      "price": 3500,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/fresh_bananas_1kg.png"
+    }
+  ]
+},
+"chocolates": {
+  "category_label": "Chocolates",
+  "products": [
+    {
+      "id": "lindt-excellence-70-100g",
+      "name": "Lindt Excellence 70% Cocoa",
+      "brand": "Lindt",
+      "variant": "Dark Chocolate",
+      "size": "100g",
+      "price": 12000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/lindt_excellence_70_100g.png"
+    },
+    {
+      "id": "cadbury-dairy-milk-200g",
+      "name": "Cadbury Dairy Milk",
+      "brand": "Cadbury",
+      "variant": "Milk Chocolate",
+      "size": "200g",
+      "price": 8000,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/cadbury_dairy_milk_200g.png"
+    },
+    {
+      "id": "hersheys-milk-chocolate-150g",
+      "name": "Hershey's Milk Chocolate",
+      "brand": "Hershey's",
+      "variant": "Milk Chocolate",
+      "size": "150g",
+      "price": 7000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/hersheys_milk_chocolate_150g.png"
+    },
+    {
+      "id": "ghirardelli-dark-chocolate-100g",
+      "name": "Ghirardelli Dark Chocolate",
+      "brand": "Ghirardelli",
+      "variant": "Dark Chocolate",
+      "size": "100g",
+      "price": 15000,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/ghirardelli_dark_chocolate_100g.png "
+    },
+    {
+      "id": "loshes chocolate-100g",
+      "name": "Loshes Chocolate",
+      "brand": "Loshes",
+      "variant": "Milk Chocolate",
+      "size": "100g",
+      "price": 9000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/loshes_chocolate_100g.png"
+    },
+    {
+      "id": "ferrero-rocher-200g",
+      "name": "Ferrero Rocher",
+      "brand": "Ferrero",
+      "variant": "Hazelnut Chocolate",
+      "size": "200g",
+      "price": 25000,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/ferrero_rocher_200g.png"
+    },
+    {
+      "id": "gods-gold-100g",
+      "name": "God's Gold Chocolate",
+      "brand": "God's Gold",
+      "variant": "Milk Chocolate",
+      "size": "100g",
+      "price": 8000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/gods_gold_100g.png"
+    },
+    {
+      "id": "lindt-lindor-200g",
+      "name": "Lindt Lindor Truffles",
+      "brand": "Lindt",
+      "variant": "Milk Chocolate",
+      "size": "200g",
+      "price": 22000,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/lindt_lindor_200g.png"
+    },
+    {
+      "id": "Loom Craft Chocolate-100g",
+      "name": "Loom Craft Chocolate",
+      "brand": "Loom Craft",
+      "variant": "Dark Chocolate",
+      "size": "100g",
+      "price": 10000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/loom_craft_chocolate_100g.png"
+    },
+    {
+      "id": "ChockRidge Chocolate",
+      "name": "ChockRidge Chocolate",
+      "brand": "ChockRidge",
+      "variant": "Milk Chocolate",
+      "size": "100g",
+      "price": 9000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/chockridge_chocolate_100g.png"
+    },
+    {
+      "id": "Dune Chocolate-100g",
+      "name": "Dune Chocolate",
+      "brand": "Dune",
+      "variant": "Dark Chocolate",
+      "size": "100g",
+      "price": 11000,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/dune_chocolate_100g.png"
+    },
+    {
+      "id": "Wimmy's Chocolate-100g",
+      "name": "Wimmy's Chocolate",
+      "brand": "Wimmy's",
+      "variant": "Milk Chocolate",
+      "size": "100g",
+      "price": 8000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/wimmys_chocolate_100g.png"
+    },
+    {
+      "id": "Chamuze",
+      "name": "Chamuze",
+      "brand": "Chamuze",
+      "variant": "Milk Chocolate",
+      "size": "100g",
+      "price": 8000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/chamuze_100g.png"
+    }
+  ]
+},
+"wines_and_spirits_champagne": {
+  "category_label": "Wines, Spirits & Champagne",
+  "products": [
+    {
+      "id": "chateau-chardonnay-750ml",
+      "name": "Chateau Chardonnay",
+      "brand": "Chateau",
+      "variant": "Chardonnay",
+      "size": "750ml",
+      "price": 100000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/chateau_chardonnay_750ml.png"
+    },
+    {
+      "id": "chateau-pinot-grigio-750ml",
+      "name": "Chateau Pinot Grigio",
+      "brand": "Chateau",
+      "variant": "Pinot Grigio",
+      "size": "750ml",
+      "price": 100000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/chateau_pinot_grigio_750ml.png"
+    },
+    {
+      "id": "Gala Rosa Red Wine",
+      "name": "Gala Rosa Red Wine",
+      "brand": "Gala",
+      "variant": "Red Wine",
+      "size": "750ml",
+      "price": 25000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/gala_rosa_red_wine_750ml.png"
+    }
+  ]
+},
+"cookies": {
+  "category_label": "Cookies",
+  "products": [
+    {
+      "id": "oreo-original-154g",
+      "name": "Oreo Original",
+      "brand": "Oreo",
+      "variant": "Original",
+      "size": "154g",
+      "price": 2500,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/oreo_original_154g.png"
+    },
+    {
+      "id": "oreo-original-300g",
+      "name": "Oreo Original",
+      "brand": "Oreo",
+      "variant": "Original",
+      "size": "300g",
+      "price": 4500,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/oreo_original_300g.png"
+    }
+  ]
+},
+"crackers": {
+  "category_label": "Crackers",
+  "products": [
+    {
+      "id": "ritz-crackers-200g",
+      "name": "Ritz Crackers",
+      "brand": "Ritz",
+      "variant": "Original",
+      "size": "200g",
+      "price": 5000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/ritz_crackers_200g.png"
+    },
+    {
+      "id": "carrs-table-water-125g",
+      "name": "Table Water Crackers",
+      "brand": "Carr's",
+      "variant": "Original",
+      "size": "125g",
+      "price": 6000,
+      "currency": "NGN",
+      "availability": "low_stock",
+      "image": "/images/carrs_crackers_125g.png"
+    },
+    {
+      "id": "jacobs_water_crackers",
+      "name": "Jacobs Water Crackers",
+      "brand": "Jacobs",
+      "variant": "Original",
+      "size": "125g",
+      "price": 6000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/jacobs_crackers_125g.png"
+    },
+    {
+      "id": "beloxxi_cream_crackers",
+      "name": "Beloxxi Cream Crackers",
+      "brand": "Beloxxi",
+      "variant": "Original",
+      "size": "125g",
+      "price": 6000,
+      "currency": "NGN",
+      "availability": "in_stock",
+      "image": "/images/beloxxi_crackers_125g.png"
+    }
+  ]
+},
+"beverages": {
+  "category_label": "Beverages",
+ 
+    "products": [
+      {
+        "id": "coca-cola-330ml",
+        "name": "Coca-Cola",
+        "brand": "Coca-Cola",
+        "variant": "Original",
+        "size": "330ml",
+        "price": 700,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/coca_cola_330ml.png"
+      },
+      {
+        "id": "coca-cola-33ml",
+        "name": "Coca-Cola",
+        "brand": "Coca-Cola",
+        "variant": "Original",
+        "size": "33ml",
+        "price": 570,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/coca_zero_33ml.png"
+      },
+      {
+        "id": "coca-cola-1l",
+        "name": "Coca-Cola",
+        "brand": "Coca-Cola",
+        "variant": "Original",
+        "size": "1L",
+        "price": 1300,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/coca_cola_1l.png"
+      },
+      {
+        "id": "sprite-330ml",
+        "name": "Sprite",
+        "brand": "Sprite",
+        "variant": "Lemon-Lime",
+        "size": "330ml",
+        "price": 700,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/sprite_330ml.png"
+      }
+    ]
+  },
+  "sparkling_water": {
+    "category_label": "Sparkling Water",
+    "products": [
+      {
+        "id": "perrier-330ml",
+        "name": "Perrier Sparkling Water",
+        "brand": "Perrier",
+        "variant": "Original",
+        "size": "330ml",
+        "price": 3500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/perrier_330ml.png"
+      },
+      {
+        "id": "perrier-750ml",
+        "name": "Perrier Sparkling Water",
+        "brand": "Perrier",
+        "variant": "Original",
+        "size": "750ml",
+        "price": 5500,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/perrier_750ml.png"
+      },
+      {
+        "id": "san-pellegrino-750ml",
+        "name": "Sparkling Mineral Water",
+        "brand": "San Pellegrino",
+        "variant": "Original",
+        "size": "750ml",
+        "price": 6000,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/san_pellegrino_750ml.png"
+      }
+    ]
+  },
+  "orange_juice": {
+    "category_label": "Orange Juice",
+    "products": [
+      {
+        "id": "tropicana-orange-1l",
+        "name": "Pure Premium Orange Juice",
+        "brand": "Tropicana",
+        "variant": "Original",
+        "size": "1L",
+        "price": 6500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/tropicana_orange_1l.png"
+      },
+      {
+        "id": "innocent-orange-900ml",
+        "name": "Smooth Orange Juice",
+        "brand": "Innocent",
+        "variant": "Original",
+        "size": "900ml",
+        "price": 7000,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/innocent_orange_900ml.png"
+      }
+    ]
+  },
+"coffee": {
+  "category_label": "Coffee",
+ 
+    "products": [
+      {
+        "id": "nescafe-classic-100g",
+        "name": "Nescafé Classic Instant Coffee",
+        "brand": "Nescafé",
+        "variant": "Original",
+        "size": "100g",
+        "price": 8500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/nescafe_classic_100g.png"
+      },
+      {
+        "id": "nescafe-gold-100g",
+        "name": "Nescafé Gold Instant Coffee",
+        "brand": "Nescafé",
+        "variant": "Smooth & Rich",
+        "size": "100g",
+        "price": 10500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/nescafe_gold_100g.png"
+      },
+      {
+        "id": "nescafe-gold-200g",
+        "name": "Nescafé Gold Instant Coffee",
+        "brand": "Nescafé",
+        "variant": "Smooth & Rich",
+        "size": "200g",
+        "price": 19000,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/nescafe_gold_200g.png"
+      },
+      {
+        "id": "jacobs-kronung-100g",
+        "name": "Jacobs Krönung Instant Coffee",
+        "brand": "Jacobs",
+        "variant": "Original",
+        "size": "100g",
+        "price": 14500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/jacobs_kronung_100g.png"
+      },
+      {
+        "id": "douwe-egberts-pure-gold-100g",
+        "name": "Pure Gold Instant Coffee",
+        "brand": "Douwe Egberts",
+        "variant": "Original",
+        "size": "100g",
+        "price": 19500,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/douwe_egberts_pure_gold_100g.png"
+      },
+      {
+        "id": "tchibo-gold-selection-100g",
+        "name": "Gold Selection Instant Coffee",
+        "brand": "Tchibo",
+        "variant": "Original",
+        "size": "100g",
+        "price": 15000,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/tchibo_gold_selection_100g.png"
+      },
+      {
+        "id": "kenco-smooth-100g",
+        "name": "Kenco Smooth Instant Coffee",
+        "brand": "Kenco",
+        "variant": "Smooth",
+        "size": "100g",
+        "price": 10000,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/kenco_smooth_100g.png"
+      },
+      {
+        "id": "nescafe-3in1-10pk",
+        "name": "Nescafé 3 in 1 Coffee",
+        "brand": "Nescafé",
+        "variant": "Original",
+        "size": "10 Sachets",
+        "price": 2500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/nescafe_3in1_10pk.png"
+      },
+
+      {
+        "id": "lavazza-crema-gusto-250g",
+        "name": "Crema e Gusto Ground Coffee",
+        "brand": "Lavazza",
+        "variant": "Dark Roast",
+        "size": "250g",
+        "price": 19500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/lavazza_crema_e_gusto_250g.png"
+      },
+      {
+        "id": "folgers-classic-roast-320g",
+        "name": "Classic Roast Ground Coffee",
+        "brand": "Folgers",
+        "variant": "Medium Roast",
+        "size": "320g",
+        "price": 16500,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/folgers_classic_roast_320g.png"
+      },
+      {
+        "id": "maxwell-house-original-200g",
+        "name": "Original Roast Ground Coffee",
+        "brand": "Maxwell House",
+        "variant": "Medium Roast",
+        "size": "200g",
+        "price": 12500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/maxwell_house_original_200g.png"
+      },
+      {
+        "id": "starbucks-pike-place-200g",
+        "name": "Pike Place Roast Ground Coffee",
+        "brand": "Starbucks",
+        "variant": "Medium Roast",
+        "size": "200g",
+        "price": 18000,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/starbucks_pike_place_200g.png"
+  },
+  
+      {
+        "id": "lavazza-qualita-rossa-250g",
+        "name": "Qualità Rossa Coffee Beans",
+        "brand": "Lavazza",
+        "variant": "Medium Roast",
+        "size": "250g",
+        "price": 25000,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/lavazza_qualita_rossa_250g.png"
+      },
+      {
+        "id": "Mugg & Bean Coffee Beans 250g",
+        "name": "Mugg & Bean Coffee Beans",
+        "brand": "Mugg & Bean",
+        "variant": "Medium Roast",
+        "size": "250g",
+        "price": 22000,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/mugg_bean_coffee_beans_250g.png"
+      },
+      {
+        "id": "lavazza-super-crema-1kg",
+        "name": "Super Crema Coffee Beans",
+        "brand": "Lavazza",
+        "variant": "Medium to Dark Roast",
+        "size": "1kg",
+        "price": 62000,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/lavazza_super_crema_1kg.png"
+      },
+      {
+        "id": "illy-classico-beans-250g",
+        "name": "Classico Coffee Beans",
+        "brand": "Illy",
+        "variant": "Medium Roast",
+        "size": "250g",
+        "price": 24000,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/illy_classico_250g.png"
+      },
+      {
+        "id": "illy-intenso-beans-250g",
+        "name": "Intenso Coffee Beans",
+        "brand": "Illy",
+        "variant": "Dark Roast",
+        "size": "250g",
+        "price": 25000,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/illy_intenso_250g.png"
+      },
+      {
+        "id": "starbucks-pike-place-beans-200g",
+        "name": "Pike Place Roast Coffee Beans",
+        "brand": "Starbucks",
+        "variant": "Medium Roast",
+        "size": "200g",
+        "price": 18000,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/starbucks_pike_place_beans_200g.png"
+      },
+      {
+        "id": "starbucks-espresso-roast-beans-200g",
+        "name": "Espresso Roast Coffee Beans",
+        "brand": "Starbucks",
+        "variant": "Dark Roast",
+        "size": "200g",
+        "price": 19000,
+        "currency": "NGN",
+        "availability": "out_of_stock",
+        "image": "/images/starbucks_espresso_beans_200g.png"
+      }
+    ]
+  },
+"frozen_foods": {
+  "category_label": "Frozen Foods",
+    "products": [
+      {
+        "id": "dr-oetker-ristorante-pizza-320g",
+        "name": "Ristorante Pizza",
+        "brand": "Dr. Oetker",
+        "variant": "Mozzarella",
+        "size": "320g",
+        "price": 10500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/dr_oetker_pizza_320g.png"
+      },
+      {
+        "id": "dr-oetker-ristorante-pepperoni-330g",
+        "name": "Ristorante Pizza",
+        "brand": "Dr. Oetker",
+        "variant": "Pepperoni",
+        "size": "330g",
+        "price": 11500,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/dr_oetker_pepperoni_330g.png"
+      
+
+  },
+  
+      {
+        "id": "ben-jerrys-cookie-dough-465ml",
+        "name": "Cookie Dough Ice Cream",
+        "brand": "Ben & Jerry's",
+        "variant": "Chocolate Chip Cookie Dough",
+        "size": "465ml",
+        "price": 18000,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/ben_jerrys_cookie_dough_465ml.png"
+      },
+      {
+        "id": "ben-jerrys-chocolate-fudge-465ml",
+        "name": "Chocolate Fudge Brownie",
+        "brand": "Ben & Jerry's",
+        "variant": "Chocolate",
+        "size": "465ml",
+        "price": 18000,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/ben_jerrys_chocolate_fudge_465ml.png"
+      },
+      {
+        "id": "haagen-dazs-vanilla-460ml",
+        "name": "Vanilla Ice Cream",
+        "brand": "Häagen-Dazs",
+        "variant": "Vanilla",
+        "size": "460ml",
+        "price": 19500,
+        "currency": "NGN",
+        "availability": "out_of_stock",
+        "image": "/images/haagen_dazs_vanilla_460ml.png"
+      }
+    ]
+  },
+  "frozen_vegetables": {
+    "category_label": "Frozen Vegetables",
+    "products": [
+      {
+        "id": "birds-eye-mixed-vegetables-750g",
+        "name": "Mixed Vegetables",
+        "brand": "Birds Eye",
+        "variant": "Mixed Vegetables",
+        "size": "750g",
+        "price": 8500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/birds_eye_mixed_vegetables_750g.png"
+      },
+      {
+        "id": "birds-eye-green-peas-750g",
+        "name": "Garden Peas",
+        "brand": "Birds Eye",
+        "variant": "Green Peas",
+        "size": "750g",
+        "price": 7500,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/birds_eye_green_peas_750g.png"
+      }
+    ]
+  },
+"household_and_cleaning": {
+  "category_label": "Household & Cleaning",
+
+    "products": [
+      {
+        "id": "ariel-liquid-1l",
+        "name": "Ariel Liquid Detergent",
+        "brand": "Ariel",
+        "variant": "Original",
+        "size": "1L",
+        "price": 6500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/ariel_liquid_1l.png"
+      },
+      {
+        "id": "ariel-powder-1kg",
+        "name": "Ariel Washing Powder",
+        "brand": "Ariel",
+        "variant": "Original",
+        "size": "1kg",
+        "price": 4500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/ariel_powder_1kg.png"
+      },
+      {
+        "id": "persil-liquid-1l",
+        "name": "Persil Liquid Detergent",
+        "brand": "Persil",
+        "variant": "Bio",
+        "size": "1L",
+        "price": 8500,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/persil_liquid_1l.png"
+    
+  },
+ 
+      {
+        "id": "fairy-dish-soap-500ml",
+        "name": "Fairy Dishwashing Liquid",
+        "brand": "Fairy",
+        "variant": "Original",
+        "size": "500ml",
+        "price": 4500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/fairy_dish_soap_500ml.png"
+      },
+      {
+        "id": "fairy-dish-soap-750ml",
+        "name": "Fairy Dishwashing Liquid",
+        "brand": "Fairy",
+        "variant": "Original",
+        "size": "750ml",
+        "price": 6000,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/fairy_dish_soap_750ml.png"
+      
   },
 
-  "beverages": {
-    "category_label": "Beverages",
-    "soda": {
-      "category_label": "Soda",
-      "products": [
-        {
-          "id": "coca-cola-330ml",
-          "name": "Coca-Cola",
-          "brand": "Coca-Cola",
-          "variant": "Original",
-          "size": "330ml",
-          "price": 700,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/coca_cola_330ml.png"
-        },
-        {
-          "id": "coca-cola-33ml",
-          "name": "Coca-Cola",
-          "brand": "Coca-Cola",
-          "variant": "Original",
-          "size": "33ml",
-          "price": 570,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/coca_zero_33ml.png"
-        },
-        {
-          "id": "coca-cola-1l",
-          "name": "Coca-Cola",
-          "brand": "Coca-Cola",
-          "variant": "Original",
-          "size": "1L",
-          "price": 1300,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/coca_cola_1l.png"
-        },
-        {
-          "id": "sprite-330ml",
-          "name": "Sprite",
-          "brand": "Sprite",
-          "variant": "Lemon-Lime",
-          "size": "330ml",
-          "price": 700,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/sprite_330ml.png"
-        }
-      ]
-    },
-    "sparkling_water": {
-      "category_label": "Sparkling Water",
-      "products": [
-        {
-          "id": "perrier-330ml",
-          "name": "Perrier Sparkling Water",
-          "brand": "Perrier",
-          "variant": "Original",
-          "size": "330ml",
-          "price": 3500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/perrier_330ml.png"
-        },
-        {
-          "id": "perrier-750ml",
-          "name": "Perrier Sparkling Water",
-          "brand": "Perrier",
-          "variant": "Original",
-          "size": "750ml",
-          "price": 5500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/perrier_750ml.png"
-        },
-        {
-          "id": "san-pellegrino-750ml",
-          "name": "Sparkling Mineral Water",
-          "brand": "San Pellegrino",
-          "variant": "Original",
-          "size": "750ml",
-          "price": 6000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/san_pellegrino_750ml.png"
-        }
-      ]
-    },
-    "orange_juice": {
-      "category_label": "Orange Juice",
-      "products": [
-        {
-          "id": "tropicana-orange-1l",
-          "name": "Pure Premium Orange Juice",
-          "brand": "Tropicana",
-          "variant": "Original",
-          "size": "1L",
-          "price": 6500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/tropicana_orange_1l.png"
-        },
-        {
-          "id": "innocent-orange-900ml",
-          "name": "Smooth Orange Juice",
-          "brand": "Innocent",
-          "variant": "Original",
-          "size": "900ml",
-          "price": 7000,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/innocent_orange_900ml.png"
-        }
-      ]
-    }
+      {
+        "id": "bounty-paper-towels-2pk",
+        "name": "Paper Towels",
+        "brand": "Bounty",
+        "variant": "Select-a-Size",
+        "size": "2 Rolls",
+        "price": 7500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/bounty_paper_towels_2pk.png"
+      },
+      {
+        "id": "bounty-paper-towels-6pk",
+        "name": "Paper Towels",
+        "brand": "Bounty",
+        "variant": "Select-a-Size",
+        "size": "6 Rolls",
+        "price": 18500,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/bounty_paper_towels_6pk.png"
+      }
+    ]
+},
+"personal_care": {
+  "category_label": "Personal Care",
+ 
+    "products": [
+      {
+        "id": "head-and-shoulders-classic-400ml",
+        "name": "Classic Clean Shampoo",
+        "brand": "Head & Shoulders",
+        "variant": "Classic Clean",
+        "size": "400ml",
+        "price": 6500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/head_and_shoulders_classic_400ml.png"
+      },
+      {
+        "id": "pantene-pro-v-400ml",
+        "name": "Pro-V Daily Moisture Renewal Shampoo",
+        "brand": "Pantene",
+        "variant": "Daily Moisture",
+        "size": "400ml",
+        "price": 6500,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/pantene_pro_v_400ml.png"
+    
   },
-
-  "coffee": {
-    "category_label": "Coffee",
-    "instant_coffee": {
-      "category_label": "Instant Coffee",
-      "products": [
-        {
-          "id": "nescafe-classic-100g",
-          "name": "Nescafé Classic Instant Coffee",
-          "brand": "Nescafé",
-          "variant": "Original",
-          "size": "100g",
-          "price": 8500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/nescafe_classic_100g.png"
-        },
-        {
-          "id": "nescafe-gold-100g",
-          "name": "Nescafé Gold Instant Coffee",
-          "brand": "Nescafé",
-          "variant": "Smooth & Rich",
-          "size": "100g",
-          "price": 10500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/nescafe_gold_100g.png"
-        },
-        {
-          "id": "nescafe-gold-200g",
-          "name": "Nescafé Gold Instant Coffee",
-          "brand": "Nescafé",
-          "variant": "Smooth & Rich",
-          "size": "200g",
-          "price": 19000,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/nescafe_gold_200g.png"
-        },
-        {
-          "id": "jacobs-kronung-100g",
-          "name": "Jacobs Krönung Instant Coffee",
-          "brand": "Jacobs",
-          "variant": "Original",
-          "size": "100g",
-          "price": 14500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/jacobs_kronung_100g.png"
-        },
-        {
-          "id": "douwe-egberts-pure-gold-100g",
-          "name": "Pure Gold Instant Coffee",
-          "brand": "Douwe Egberts",
-          "variant": "Original",
-          "size": "100g",
-          "price": 19500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/douwe_egberts_pure_gold_100g.png"
-        },
-        {
-          "id": "tchibo-gold-selection-100g",
-          "name": "Gold Selection Instant Coffee",
-          "brand": "Tchibo",
-          "variant": "Original",
-          "size": "100g",
-          "price": 15000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/tchibo_gold_selection_100g.png"
-        },
-        {
-          "id": "kenco-smooth-100g",
-          "name": "Kenco Smooth Instant Coffee",
-          "brand": "Kenco",
-          "variant": "Smooth",
-          "size": "100g",
-          "price": 10000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/kenco_smooth_100g.png"
-        },
-        {
-          "id": "nescafe-3in1-10pk",
-          "name": "Nescafé 3 in 1 Coffee",
-          "brand": "Nescafé",
-          "variant": "Original",
-          "size": "10 Sachets",
-          "price": 2500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/nescafe_3in1_10pk.png"
-        }
-      ]
-    },
-    "ground_coffee": {
-      "category_label": "Ground Coffee",
-      "products": [
-        {
-          "id": "lavazza-crema-gusto-250g",
-          "name": "Crema e Gusto Ground Coffee",
-          "brand": "Lavazza",
-          "variant": "Dark Roast",
-          "size": "250g",
-          "price": 19500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/lavazza_crema_e_gusto_250g.png"
-        },
-        {
-          "id": "folgers-classic-roast-320g",
-          "name": "Classic Roast Ground Coffee",
-          "brand": "Folgers",
-          "variant": "Medium Roast",
-          "size": "320g",
-          "price": 16500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/folgers_classic_roast_320g.png"
-        },
-        {
-          "id": "maxwell-house-original-200g",
-          "name": "Original Roast Ground Coffee",
-          "brand": "Maxwell House",
-          "variant": "Medium Roast",
-          "size": "200g",
-          "price": 12500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/maxwell_house_original_200g.png"
-        },
-        {
-          "id": "starbucks-pike-place-200g",
-          "name": "Pike Place Roast Ground Coffee",
-          "brand": "Starbucks",
-          "variant": "Medium Roast",
-          "size": "200g",
-          "price": 18000,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/starbucks_pike_place_200g.png"
-        }
-      ]
-    },
-    "coffee_beans": {
-      "category_label": "Coffee Beans",
-      "products": [
-        {
-          "id": "lavazza-qualita-rossa-250g",
-          "name": "Qualità Rossa Coffee Beans",
-          "brand": "Lavazza",
-          "variant": "Medium Roast",
-          "size": "250g",
-          "price": 25000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/lavazza_qualita_rossa_250g.png"
-        },
-        {
-          "id": "Mugg & Bean Coffee Beans 250g",
-          "name": "Mugg & Bean Coffee Beans",
-          "brand": "Mugg & Bean",
-          "variant": "Medium Roast",
-          "size": "250g",
-          "price": 22000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/mugg_bean_coffee_beans_250g.png"
-        },
-        {
-          "id": "lavazza-super-crema-1kg",
-          "name": "Super Crema Coffee Beans",
-          "brand": "Lavazza",
-          "variant": "Medium to Dark Roast",
-          "size": "1kg",
-          "price": 62000,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/lavazza_super_crema_1kg.png"
-        },
-        {
-          "id": "illy-classico-beans-250g",
-          "name": "Classico Coffee Beans",
-          "brand": "Illy",
-          "variant": "Medium Roast",
-          "size": "250g",
-          "price": 24000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/illy_classico_250g.png"
-        },
-        {
-          "id": "illy-intenso-beans-250g",
-          "name": "Intenso Coffee Beans",
-          "brand": "Illy",
-          "variant": "Dark Roast",
-          "size": "250g",
-          "price": 25000,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/illy_intenso_250g.png"
-        },
-        {
-          "id": "starbucks-pike-place-beans-200g",
-          "name": "Pike Place Roast Coffee Beans",
-          "brand": "Starbucks",
-          "variant": "Medium Roast",
-          "size": "200g",
-          "price": 18000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/starbucks_pike_place_beans_200g.png"
-        },
-        {
-          "id": "starbucks-espresso-roast-beans-200g",
-          "name": "Espresso Roast Coffee Beans",
-          "brand": "Starbucks",
-          "variant": "Dark Roast",
-          "size": "200g",
-          "price": 19000,
-          "currency": "NGN",
-          "availability": "out_of_stock",
-          "image": "/images/starbucks_espresso_beans_200g.png"
-        }
-      ]
-    }
+ 
+      {
+        "id": "colgate-total-100ml",
+        "name": "Colgate Total",
+        "brand": "Colgate",
+        "variant": "Original",
+        "size": "100ml",
+        "price": 3500,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/colgate_total_100ml.png"
+      },
+      {
+        "id": "colgate-total-150ml",
+        "name": "Colgate Total",
+        "brand": "Colgate",
+        "variant": "Original",
+        "size": "150ml",
+        "price": 5000,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/colgate_total_150ml.png"
+      },
+      {
+        "id": "sensodyne-repair-75ml",
+        "name": "Sensodyne Repair & Protect",
+        "brand": "Sensodyne",
+        "variant": "Repair & Protect",
+        "size": "75ml",
+        "price": 6500,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/sensodyne_repair_75ml.png"
+      }
+    ]
   },
-
-  "frozen_foods": {
-    "category_label": "Frozen Foods",
-    "frozen_pizza": {
-      "category_label": "Frozen Pizza",
-      "products": [
-        {
-          "id": "dr-oetker-ristorante-pizza-320g",
-          "name": "Ristorante Pizza",
-          "brand": "Dr. Oetker",
-          "variant": "Mozzarella",
-          "size": "320g",
-          "price": 10500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/dr_oetker_pizza_320g.png"
-        },
-        {
-          "id": "dr-oetker-ristorante-pepperoni-330g",
-          "name": "Ristorante Pizza",
-          "brand": "Dr. Oetker",
-          "variant": "Pepperoni",
-          "size": "330g",
-          "price": 11500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/dr_oetker_pepperoni_330g.png"
-        }
-      ]
-    },
-    "ice_cream": {
-      "category_label": "Ice Cream",
-      "products": [
-        {
-          "id": "ben-jerrys-cookie-dough-465ml",
-          "name": "Cookie Dough Ice Cream",
-          "brand": "Ben & Jerry's",
-          "variant": "Chocolate Chip Cookie Dough",
-          "size": "465ml",
-          "price": 18000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/ben_jerrys_cookie_dough_465ml.png"
-        },
-        {
-          "id": "ben-jerrys-chocolate-fudge-465ml",
-          "name": "Chocolate Fudge Brownie",
-          "brand": "Ben & Jerry's",
-          "variant": "Chocolate",
-          "size": "465ml",
-          "price": 18000,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/ben_jerrys_chocolate_fudge_465ml.png"
-        },
-        {
-          "id": "haagen-dazs-vanilla-460ml",
-          "name": "Vanilla Ice Cream",
-          "brand": "Häagen-Dazs",
-          "variant": "Vanilla",
-          "size": "460ml",
-          "price": 19500,
-          "currency": "NGN",
-          "availability": "out_of_stock",
-          "image": "/images/haagen_dazs_vanilla_460ml.png"
-        }
-      ]
-    },
-    "frozen_vegetables": {
-      "category_label": "Frozen Vegetables",
-      "products": [
-        {
-          "id": "birds-eye-mixed-vegetables-750g",
-          "name": "Mixed Vegetables",
-          "brand": "Birds Eye",
-          "variant": "Mixed Vegetables",
-          "size": "750g",
-          "price": 8500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/birds_eye_mixed_vegetables_750g.png"
-        },
-        {
-          "id": "birds-eye-green-peas-750g",
-          "name": "Garden Peas",
-          "brand": "Birds Eye",
-          "variant": "Green Peas",
-          "size": "750g",
-          "price": 7500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/birds_eye_green_peas_750g.png"
-        }
-      ]
-    }
-  },
-
-  "household_and_cleaning": {
-    "category_label": "Household & Cleaning",
-    "laundry_detergent": {
-      "category_label": "Laundry Detergent",
-      "products": [
-        {
-          "id": "ariel-liquid-1l",
-          "name": "Ariel Liquid Detergent",
-          "brand": "Ariel",
-          "variant": "Original",
-          "size": "1L",
-          "price": 6500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/ariel_liquid_1l.png"
-        },
-        {
-          "id": "ariel-powder-1kg",
-          "name": "Ariel Washing Powder",
-          "brand": "Ariel",
-          "variant": "Original",
-          "size": "1kg",
-          "price": 4500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/ariel_powder_1kg.png"
-        },
-        {
-          "id": "persil-liquid-1l",
-          "name": "Persil Liquid Detergent",
-          "brand": "Persil",
-          "variant": "Bio",
-          "size": "1L",
-          "price": 8500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/persil_liquid_1l.png"
-        }
-      ]
-    },
-    "dish_soap": {
-      "category_label": "Dish Soap",
-      "products": [
-        {
-          "id": "fairy-dish-soap-500ml",
-          "name": "Fairy Dishwashing Liquid",
-          "brand": "Fairy",
-          "variant": "Original",
-          "size": "500ml",
-          "price": 4500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/fairy_dish_soap_500ml.png"
-        },
-        {
-          "id": "fairy-dish-soap-750ml",
-          "name": "Fairy Dishwashing Liquid",
-          "brand": "Fairy",
-          "variant": "Original",
-          "size": "750ml",
-          "price": 6000,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/fairy_dish_soap_750ml.png"
-        }
-      ]
-    },
-    "paper_towels": {
-      "category_label": "Paper Towels",
-      "products": [
-        {
-          "id": "bounty-paper-towels-2pk",
-          "name": "Paper Towels",
-          "brand": "Bounty",
-          "variant": "Select-a-Size",
-          "size": "2 Rolls",
-          "price": 7500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/bounty_paper_towels_2pk.png"
-        },
-        {
-          "id": "bounty-paper-towels-6pk",
-          "name": "Paper Towels",
-          "brand": "Bounty",
-          "variant": "Select-a-Size",
-          "size": "6 Rolls",
-          "price": 18500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/bounty_paper_towels_6pk.png"
-        }
-      ]
-    }
-  },
-
-  "personal_care": {
-    "category_label": "Personal Care",
-    "shampoo": {
-      "category_label": "Shampoo",
-      "products": [
-        {
-          "id": "head-and-shoulders-classic-400ml",
-          "name": "Classic Clean Shampoo",
-          "brand": "Head & Shoulders",
-          "variant": "Classic Clean",
-          "size": "400ml",
-          "price": 6500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/head_and_shoulders_classic_400ml.png"
-        },
-        {
-          "id": "pantene-pro-v-400ml",
-          "name": "Pro-V Daily Moisture Renewal Shampoo",
-          "brand": "Pantene",
-          "variant": "Daily Moisture",
-          "size": "400ml",
-          "price": 6500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/pantene_pro_v_400ml.png"
-        }
-      ]
-    },
-    "toothpaste": {
-      "category_label": "Toothpaste",
-      "products": [
-        {
-          "id": "colgate-total-100ml",
-          "name": "Colgate Total",
-          "brand": "Colgate",
-          "variant": "Original",
-          "size": "100ml",
-          "price": 3500,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/colgate_total_100ml.png"
-        },
-        {
-          "id": "colgate-total-150ml",
-          "name": "Colgate Total",
-          "brand": "Colgate",
-          "variant": "Original",
-          "size": "150ml",
-          "price": 5000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/colgate_total_150ml.png"
-        },
-        {
-          "id": "sensodyne-repair-75ml",
-          "name": "Sensodyne Repair & Protect",
-          "brand": "Sensodyne",
-          "variant": "Repair & Protect",
-          "size": "75ml",
-          "price": 6500,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/sensodyne_repair_75ml.png"
-        }
-      ]
-    },
-    "hand_soap": {
-      "category_label": "Hand Soap",
-      "products": [
-        {
-          "id": "dettol-hand-wash-250ml",
-          "name": "Dettol Hand Wash",
-          "brand": "Dettol",
-          "variant": "Original",
-          "size": "250ml",
-          "price": 3000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/dettol_hand_wash_250ml.png"
-        },
-        {
-          "id": "dettol-hand-wash-500ml",
-          "name": "Dettol Hand Wash",
-          "brand": "Dettol",
-          "variant": "Original",
-          "size": "500ml",
-          "price": 5000,
-          "currency": "NGN",
-          "availability": "in_stock",
-          "image": "/images/dettol_hand_wash_500ml.png"
-        },
-        {
-          "id": "dove-hand-wash-250ml",
-          "name": "Dove Hand Wash",
-          "brand": "Dove",
-          "variant": "Moisturising",
-          "size": "250ml",
-          "price": 4000,
-          "currency": "NGN",
-          "availability": "low_stock",
-          "image": "/images/dove_hand_wash_250ml.png"
-        }
-      ]
-    }
+  "hand_soap": {
+    "category_label": "Hand Soap",
+    "products": [
+      {
+        "id": "dettol-hand-wash-250ml",
+        "name": "Dettol Hand Wash",
+        "brand": "Dettol",
+        "variant": "Original",
+        "size": "250ml",
+        "price": 3000,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/dettol_hand_wash_250ml.png"
+      },
+      {
+        "id": "dettol-hand-wash-500ml",
+        "name": "Dettol Hand Wash",
+        "brand": "Dettol",
+        "variant": "Original",
+        "size": "500ml",
+        "price": 5000,
+        "currency": "NGN",
+        "availability": "in_stock",
+        "image": "/images/dettol_hand_wash_500ml.png"
+      },
+      {
+        "id": "dove-hand-wash-250ml",
+        "name": "Dove Hand Wash",
+        "brand": "Dove",
+        "variant": "Moisturising",
+        "size": "250ml",
+        "price": 4000,
+        "currency": "NGN",
+        "availability": "low_stock",
+        "image": "/images/dove_hand_wash_250ml.png"
+      }
+    ]
   }
 }

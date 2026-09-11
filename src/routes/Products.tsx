@@ -18,20 +18,30 @@ type Product = {
 const Products: React.FC = () => {
   const products: Product[] = [];
 
-  Object.values(productsData).forEach((category) => {
-    Object.values(category).forEach((subcategory) => {
-      if (
-        typeof subcategory === "object" &&
-        subcategory !== null &&
-        "products" in subcategory
-      ) {
-        products.push(
-          ...(subcategory.products as Product[])
-        );
-      }
-    });
-  });
+  const collectProducts = (data: unknown) => {
+  if (typeof data !== "object" || data === null) {
+    return;
+  }
 
+  if ("products" in data) {
+    const productsArray = (data as { products?: unknown }).products;
+
+    if (Array.isArray(productsArray)) {
+      products.push(...(productsArray as Product[]));
+    }
+  }
+
+  Object.values(data).forEach((value) => {
+    if (typeof value === "object" && value !== null) {
+      collectProducts(value);
+    }
+  });
+};
+
+collectProducts(productsData);
+
+console.log("Total products:", products.length);
+console.log(products);
   console.log(products);
 
 
