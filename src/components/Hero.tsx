@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
     },
     {
       bgColor: "bg-gray-500",
-      image: "/images/coffeebeans.png",
+      image: "/images/mugg_bean_coffee_beans_250g.png",
       alt: "Coffee Beans",
     
     },
